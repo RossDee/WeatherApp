@@ -1,0 +1,4 @@
+{
+  "docwriter.style": "JSDoc",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

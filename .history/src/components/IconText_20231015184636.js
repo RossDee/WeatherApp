@@ -1,0 +1,15 @@
+import React from "react";
+import { StyleSheet, View,Text, ImageBackground,SafeAreaView,StatusBar } from "react-native";
+
+const IconText = (props) => {
+    const {name, text, color} = props
+    return (
+        <View style = {styles.wrapper}>
+            <Feather name = {name} size = {50} color = {color}>
+                <Text style = {styles.text}>{text}</Text>
+            </Feather>
+        </View>
+    )
+}
+
+export default IconText
